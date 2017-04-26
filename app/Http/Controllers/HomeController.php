@@ -13,6 +13,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('auth.register');
+    }
+
+    /**
+     * Success the created form of people.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function success()
+    {
+        return view('form_create_success');
     }
 }
