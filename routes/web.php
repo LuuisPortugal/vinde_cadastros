@@ -13,6 +13,6 @@
 
 Auth::routes();
 Route::get('/', 'HomeController@index');
-Route::get('/success', 'HomeController@success');
+Route::post('/save', 'HomeController@save');
 
 

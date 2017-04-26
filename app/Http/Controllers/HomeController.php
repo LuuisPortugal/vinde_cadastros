@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
+use Mockery\CountValidator\Exception;
 
 class HomeController extends Controller
 {
@@ -13,7 +15,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('auth.register');
+        return view('form_create');
     }
 
     /**
@@ -21,8 +23,14 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function success()
+    public function save(Request $request)
     {
-        return view('form_create_success');
+        $data = array_except($request->all(), '_token');
+        try {
+            User::create($data);
+            return view('form_create_success');
+        } catch (Exception $e){
+            return redirect('/')->withInputs($data)->withErrors(["Falha ao Cadastrar"]);
+        }
     }
 }
