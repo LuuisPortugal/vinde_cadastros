@@ -18,9 +18,9 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('cpf', 20)->nullable();
 
             $table->integer('celula_id')->nullable()->unsigned();
-            $table->string('cpf', 20)->nullable();
             $table->date('dataNascimento');
             $table->string('celular', 15);
             $table->string('celularWhatsapp', 15)->nullable();
