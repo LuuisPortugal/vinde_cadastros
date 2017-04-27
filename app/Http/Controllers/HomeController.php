@@ -26,7 +26,10 @@ class HomeController extends Controller
     public function save(Request $request)
     {
         try {
-            $user = User::create($request->all());
+            $data = $request->all();
+            $data['password'] = bcrypt($data['password']);
+
+            $user = User::create($data);
             return view('form_create_success', compact('user'));
         } catch (Exception $e){
             return redirect('/')->withInputs($request->all())->withErrors(["Falha ao Cadastrar"]);

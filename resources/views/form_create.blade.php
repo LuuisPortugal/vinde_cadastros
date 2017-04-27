@@ -707,7 +707,7 @@
                 $.getJSON("http://correiosapi.apphb.com/cep/".concat($(this).val()))
                         .done(function (result) {
                             if (!$.isEmptyObject(result)) {
-                                var endereco = result.tipoDeLogradouro.concat(result.logradouro);
+                                var endereco = result.tipoDeLogradouro.concat(" ").concat(result.logradouro).trim();
                                 $("#enderecoID").val(endereco).prev("p").html(endereco);
 
                                 var bairro = result.bairro;
