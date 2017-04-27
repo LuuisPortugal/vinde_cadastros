@@ -22,14 +22,13 @@ class CreateUsersTable extends Migration
             $table->integer('celula_id')->nullable()->unsigned();
             $table->string('cpf', 20)->nullable();
             $table->date('dataNascimento');
-            $table->string('telefone', 14)->nullable();
             $table->string('celular', 15);
             $table->string('celularWhatsapp', 15)->nullable();
             $table->char('estadoCivil', 1)->nullable();
 
             $table->string('slug')->nullable();
             $table->integer('numeroFilhos')->nullable();
-            $table->float('rendaFamiliar')->nullable();
+            $table->char('rendaFamiliar', 1)->nullable();
             $table->string('endereco');
             $table->string('numeroEndereco');
             $table->string('cepEndereco', 9);

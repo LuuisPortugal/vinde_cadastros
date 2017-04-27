@@ -130,7 +130,7 @@
                                     <div class="col-sm-2 col-sm-offset-1">
                                         <div class="checkbox">
                                             <label for="filhosID">
-                                                <input type="checkbox" name="filhos" id="filhosID" /> Tem Filhos?
+                                                <input type="checkbox" value="1" name="filhos" id="filhosID" /> Tem Filhos?
                                             </label>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@
                                     <div class="col-sm-2">
                                         <div class="checkbox">
                                             <label for="desempregadoID">
-                                                <input type="checkbox" name="desempregado" id="desempregadoID" />
+                                                <input type="checkbox" value="1" name="desempregado" id="desempregadoID" />
                                                 Sem Profissão?
                                             </label>
                                         </div>
@@ -241,7 +241,7 @@
                                     <div class="col-sm-2">
                                         <div class="checkbox">
                                             <label for="carroID">
-                                                <input type="checkbox" name="carro" id="carroID" /> Possui Carro?
+                                                <input type="checkbox" value="1" name="carro" id="carroID" /> Possui Carro?
                                             </label>
                                         </div>
                                     </div>
@@ -249,7 +249,7 @@
                                     <div class="col-sm-3 col-sm-offset-2">
                                         <div class="checkbox">
                                             <label for="casaPropriaID">
-                                                <input type="checkbox" name="casaPropria" id="casaPropriaID" />
+                                                <input type="checkbox" value="1" name="casaPropria" id="casaPropriaID" />
                                                 Possui Residência Propria?
                                             </label>
                                         </div>
@@ -258,7 +258,7 @@
                                     <div class="col-sm-2 col-sm-offset-2">
                                         <div class="checkbox">
                                             <label for="moraPaisID">
-                                                <input type="checkbox" name="moraPais" id="moraPaisID" /> Mora com
+                                                <input type="checkbox" value="1" name="moraPais" id="moraPaisID" /> Mora com
                                                 os Pais?
                                             </label>
                                         </div>
@@ -268,7 +268,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="planoSaudeID">
-                                                <input type="checkbox" name="planoSaude" id="planoSaudeID" /> Possui
+                                                <input type="checkbox" value="1" name="planoSaude" id="planoSaudeID" /> Possui
                                                 Plano de Saúde?
                                             </label>
                                         </div>
@@ -277,7 +277,7 @@
                                     <div class="col-sm-3 col-sm-offset-1">
                                         <div class="checkbox">
                                             <label for="doadorSangueID">
-                                                <input type="checkbox" name="doadorSangue" id="doadorSangueID" />
+                                                <input type="checkbox" value="1" name="doadorSangue" id="doadorSangueID" />
                                                 Doador de Sangue?
                                             </label>
                                         </div>
@@ -293,7 +293,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="atendimentoEspecialID">
-                                                <input type="checkbox" name="atendimentoEspecial" id="atendimentoEspecialID" />
+                                                <input type="checkbox" value="1" name="atendimentoEspecial" id="atendimentoEspecialID" />
                                                 Possui algum problema de saúde que necessite de uma atenção especial?
                                             </label>
                                         </div>
@@ -309,7 +309,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="remedioControladoID">
-                                                <input type="checkbox" name="remedioControlado" id="remedioControladoID" />
+                                                <input type="checkbox" value="1" name="remedioControlado" id="remedioControladoID" />
                                                 Toma algum remédio controlado?
                                             </label>
                                         </div>
@@ -326,7 +326,7 @@
                                     <div class="col-sm-12">
                                         <div class="checkbox">
                                             <label for="gruposWhatsappID">
-                                                <input type="checkbox" name="gruposWhatsapp" id="gruposWhatsappID" />
+                                                <input type="checkbox" value="1" name="gruposWhatsapp" id="gruposWhatsappID" />
                                                 Deseja participar de grupos de whatsapp?
                                             </label>
                                         </div>
@@ -347,7 +347,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="celulaID">
-                                                <input type="checkbox" name="celula" id="celulaID" />
+                                                <input type="checkbox" value="1" name="celula" id="celulaID" />
                                                 Está em Célula?
                                             </label>
                                         </div>
@@ -364,7 +364,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="dizimistaID">
-                                                <input type="checkbox" name="dizimista" id="dizimistaID" />
+                                                <input type="checkbox" value="1" name="dizimista" id="dizimistaID" />
                                                 És Dizimista?
                                             </label>
                                         </div>
@@ -373,7 +373,7 @@
                                     <div class="col-sm-2 col-sm-offset-2">
                                         <div class="checkbox">
                                             <label for="batismoID">
-                                                <input type="checkbox" name="batismo" id="batismoID" />
+                                                <input type="checkbox" value="1" name="batismo" id="batismoID" />
                                                 És Batizado?
                                             </label>
                                         </div>
@@ -388,7 +388,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="filantropicoID">
-                                                <input type="checkbox" name="filantropico" id="filantropicoID" />
+                                                <input type="checkbox" value="1" name="filantropico" id="filantropicoID" />
                                                 Participa de algum grupo de Filantropia?
                                             </label>
                                         </div>
@@ -405,7 +405,7 @@
                                     <div class="col-sm-3">
                                         <div class="checkbox">
                                             <label for="encontroComDeusID">
-                                                <input type="checkbox" name="encontroComDeus" id="encontroComDeusID" />
+                                                <input type="checkbox" value="1" name="encontroComDeus" id="encontroComDeusID" />
                                                 Já participou do Encontro com Deus?
                                             </label>
                                         </div>
@@ -414,7 +414,7 @@
                                     <div class="col-sm-4 col-sm-offset-1">
                                         <div class="checkbox">
                                             <label for="conheceMinisteriosPauloID">
-                                                <input type="checkbox" name="conheceMinisteriosPaulo" id="conheceMinisteriosPauloID" />
+                                                <input type="checkbox" value="1" name="conheceMinisteriosPaulo" id="conheceMinisteriosPauloID" />
                                                 Você conhece os Cinco ministérios descritos por Paulo em EF 4.11?
                                             </label>
                                         </div>
@@ -437,7 +437,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="saiuOutraIgrejaID">
-                                                <input type="checkbox" name="saiuOutraIgreja" id="saiuOutraIgrejaID" />
+                                                <input type="checkbox" value="1" name="saiuOutraIgreja" id="saiuOutraIgrejaID" />
                                                 Já foi membro de outra igreja que não seja a IEQ - Catedral da Família?
                                             </label>
                                         </div>
@@ -474,7 +474,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="cristaoComPoliticaID">
-                                                <input type="checkbox" name="cristaoComPolitica" id="cristaoComPoliticaID" />
+                                                <input type="checkbox" value="1" name="cristaoComPolitica" id="cristaoComPoliticaID" />
                                                 Você acha que cristão deve se envolver com política?
                                             </label>
                                         </div>
@@ -492,7 +492,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="vontadeServirEmDepartamentoID">
-                                                <input type="checkbox" name="vontadeServirEmDepartamento" id="vontadeServirEmDepartamentoID" />
+                                                <input type="checkbox" value="1" name="vontadeServirEmDepartamento" id="vontadeServirEmDepartamentoID" />
                                                 Tem vontade de servir na igreja local em algum departamento?
                                             </label>
                                         </div>
@@ -511,7 +511,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="tocaInstrumentosID">
-                                                <input type="checkbox" name="tocaInstrumentos" id="tocaInstrumentosID" />
+                                                <input type="checkbox" value="1" name="tocaInstrumentos" id="tocaInstrumentosID" />
                                                 Toca algum instrumento?
                                             </label>
                                         </div>
@@ -530,7 +530,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="formacaoProfissionalParteChamadoID">
-                                                <input type="checkbox" name="formacaoProfissionalParteChamado" id="formacaoProfissionalParteChamadoID" />
+                                                <input type="checkbox" value="1" name="formacaoProfissionalParteChamado" id="formacaoProfissionalParteChamadoID" />
                                                 Tens consciência de que sua área de formação profissional é parte do chamado de Deus?
                                             </label>
                                         </div>
@@ -538,7 +538,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="formacaoAcademicaAliadoChamadoID">
-                                                <input type="checkbox" name="formacaoAcademicaAliadoChamado" id="formacaoAcademicaAliadoChamadoID" />
+                                                <input type="checkbox" value="1" name="formacaoAcademicaAliadoChamado" id="formacaoAcademicaAliadoChamadoID" />
                                                 Tens interesse em utilizar sua formação acadêmica como um dom no reino de Deus?
                                             </label>
                                         </div>
@@ -546,7 +546,7 @@
                                     <div class="col-sm-4">
                                         <div class="checkbox">
                                             <label for="estouDispostoServirComMeuTalentoID">
-                                                <input type="checkbox" name="estouDispostoServirComMeuTalento" id="estouDispostoServirComMeuTalentoID" />
+                                                <input type="checkbox" value="1" name="estouDispostoServirComMeuTalento" id="estouDispostoServirComMeuTalentoID" />
                                                 Está disposto a servir a Deus com seus Dons e Talentos?
                                             </label>
                                         </div>
@@ -607,7 +607,7 @@
                                 <div class="form-group">
                                     <label class="control-label col-sm-1" for="passwordID">Senha</label>
                                     <div class="col-sm-2">
-                                        <input type="password" name="password" class="form-control" id="passwordID" min="8" required />
+                                        <input type="password" name="password" class="form-control" id="passwordID" minlength="8" required />
                                     </div>
 
                                     <label class="control-label col-sm-2" for="passwordConfirmeID">Confirme sua senha</label>
@@ -629,8 +629,14 @@
     </div>
 @endsection
 @section('script')
+    <script src="/library/jquery-mask-plugin-dist/js/jquery.mask.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function (document_ready) {
+
+            $("#cpfID").mask('000.000.000-00', {reverse: true});
+            $("#celularID, #celularWhatsappID").mask('(00) 00000-0000');
+            $("#cepEnderecoID").mask('00000-000');
+
             $("#filhosID").on("change", function (filhosID_change) {
                 $('#numeroFilhosID').attr('disabled', $(this).is(":not(:checked)")).attr("required", $(this).is(":checked"));
             });

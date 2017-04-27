@@ -25,12 +25,11 @@ class HomeController extends Controller
      */
     public function save(Request $request)
     {
-        $data = array_except($request->all(), '_token');
         try {
-            User::create($data);
-            return view('form_create_success');
+            $user = User::create($request->all());
+            return view('form_create_success', compact('user'));
         } catch (Exception $e){
-            return redirect('/')->withInputs($data)->withErrors(["Falha ao Cadastrar"]);
+            return redirect('/')->withInputs($request->all())->withErrors(["Falha ao Cadastrar"]);
         }
     }
 }
